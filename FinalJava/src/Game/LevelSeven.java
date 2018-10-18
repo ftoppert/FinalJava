@@ -21,14 +21,16 @@ public class LevelSeven {
         int score = 0;
         if (FinalChoice == JOptionPane.YES_OPTION)
         {
-        	score = score + 1;
+
         	TimeUnit.SECONDS.sleep(3);
         	Main.main(null);
         }
         else
         {
-        	JOptionPane.showMessageDialog(null, "You Beat The Game" + score + "Times");
+        	score = score + 1;
+        	JOptionPane.showMessageDialog(null, "You Beat The Game " + score + " Times");
         	 SomethingNewOptions.TheEndFriends.End();
+   
         	TimeUnit.SECONDS.sleep(3);
      		  System.exit(0);
         }
