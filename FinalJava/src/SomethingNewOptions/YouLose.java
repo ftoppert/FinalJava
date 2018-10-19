@@ -1,5 +1,6 @@
 package SomethingNewOptions;
 import java.awt.Color;
+import java.awt.Container;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics2D;
@@ -16,12 +17,17 @@ public class YouLose extends JFrame {
 
 public YouLose() {
     getContentPane().add(new SomethingNewOptions());
-    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setDefaultCloseOperation(YouLose.EXIT_ON_CLOSE);
     setSize(500, 500);
     setVisible(true);
-  }
+  
 
-  public static void lose() {
+  
+	// TODO Auto-generated method stub
+	return;
+}
+
+public static void lose() {
     new YouLose();
   }
 }
