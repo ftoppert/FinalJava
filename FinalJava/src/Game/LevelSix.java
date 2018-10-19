@@ -1,10 +1,12 @@
 package Game;
 
+import java.util.concurrent.TimeUnit;
+
 import javax.swing.JOptionPane;
 
 public class LevelSix {
 
-	public static void LevelSix()
+	public static void LevelSix() throws InterruptedException
 	{
 		Object[] option = {"YES IM STILL OVERCOME WITH ANGER IM GONNA \r"
 				+ "\n KILL THEM AND GO BACK TO THE FUTURE!", "No I'm better then this. "
@@ -25,7 +27,10 @@ public class LevelSix {
         if (Choice == JOptionPane.YES_OPTION)
         {
         	JOptionPane.showMessageDialog(null, "You lose, you have become a monster."
-        			+ "\n You will now imprisoned by the time police ");
+        			+ "\n You will now imprisoned by the time police.");
+   		  SomethingNewOptions.YouLose.lose();
+           TimeUnit.SECONDS.sleep(3);
+        	System.exit(0);
         }
         else
         {

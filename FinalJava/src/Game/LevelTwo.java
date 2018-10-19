@@ -58,7 +58,7 @@ public class LevelTwo {
 		}
 		else
 		{
-			JOptionPane.showMessageDialog(null, "You have passed this level");
+			JOptionPane.showMessageDialog(null, "You have passed this level.");
 		}
 			}
 			
