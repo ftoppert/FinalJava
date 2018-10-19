@@ -65,7 +65,7 @@ public class LevelOne {
         				+ "Lets begin the game.",
         				"A Continuation box",
         				JOptionPane.PLAIN_MESSAGE);
-        	}
+        	}/// the last option for level one, starts the rest of the game
         }
 		
 	}

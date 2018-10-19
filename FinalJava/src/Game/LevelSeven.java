@@ -19,7 +19,7 @@ public class LevelSeven {
         		"Restart Box",
         		JOptionPane.YES_NO_OPTION, 0, null, option, option);
         int score = 0;
-        if (FinalChoice == JOptionPane.YES_OPTION)
+        if (FinalChoice == JOptionPane.YES_OPTION)// this is the last choice in the game
         {
 
         	TimeUnit.SECONDS.sleep(3);

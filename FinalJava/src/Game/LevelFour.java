@@ -37,7 +37,7 @@ public class LevelFour {
         	JOptionPane.showMessageDialog(null, "You decide to steal the parts, "
         			+ "\n your already on the crime path.");
                }
-        }
+        }/// this level had a lot of issues, i have no idea what happened with it but now its fix
         else 
         {
         	 SomethingNewOptions.YouLose.lose();

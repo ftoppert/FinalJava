@@ -32,7 +32,7 @@ public class LevelTwo {
 					"Your boss walked in and found you with a knife in your hand over the girls dead bodies.\r\n" + 
 					"Go to jail.");
      		  SomethingNewOptions.YouLose.lose();
-     		  TimeUnit.SECONDS.sleep(3);
+     		  TimeUnit.SECONDS.sleep(3); /// Something new i learned 
      		  System.exit(0);
 		}
 		else
@@ -50,7 +50,7 @@ public class LevelTwo {
 			JOptionPane.showMessageDialog(null, "At that exact moment a giant Barry bee Benson "
 					+ "\n the size of a human flies in  and stings you, you go to jail and die of "
 					+ "\n bee poison.",
-					"Death box",
+					"Death box", /// a joke i  think is vary funny
 					JOptionPane.ERROR_MESSAGE);
      		  SomethingNewOptions.YouLose.lose();
      		  TimeUnit.SECONDS.sleep(3);

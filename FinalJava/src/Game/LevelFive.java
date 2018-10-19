@@ -27,7 +27,7 @@ public class LevelFive {
      		  SomethingNewOptions.YouLose.lose();
      		 TimeUnit.SECONDS.sleep(3);
      		 System.exit(0);
-        }
+        }// one of my favorite losses in the games
 	}
 
 }

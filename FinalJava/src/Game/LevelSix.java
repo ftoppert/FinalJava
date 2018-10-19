@@ -24,7 +24,7 @@ public class LevelSix {
         		+ "\n being there for? Do you still even want to murder them?",
         		"The Final Question Box",
         		JOptionPane.YES_NO_OPTION, 0, null, option, option);
-        if (Choice == JOptionPane.YES_OPTION)
+        if (Choice == JOptionPane.YES_OPTION)// this is a choice that can make or break a game
         {
         	JOptionPane.showMessageDialog(null, "You lose, you have become a monster."
         			+ "\n You will now imprisoned by the time police.");

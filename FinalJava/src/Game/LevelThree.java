@@ -23,7 +23,7 @@ public class LevelThree {
      		  SomethingNewOptions.YouLose.lose();
      		  TimeUnit.SECONDS.sleep(3);
      		  System.exit(0);
-        }
+        }/// vary short level but is no less important
 	}
 
 }
