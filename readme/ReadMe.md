@@ -4,4 +4,4 @@ The Time Killer
 A link to A video of all the outcomes of the game
 
 
-<img src="JavaFinal.jpeg" height = "400" width ="400">
+<img src="JavaFinal.jpg" height = "400" width ="400">
